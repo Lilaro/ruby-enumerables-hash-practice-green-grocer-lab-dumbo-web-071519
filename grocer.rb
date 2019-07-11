@@ -52,6 +52,7 @@ def checkout(cart, coupons)
   
   total = 0
   cart.reduce do |item, value|
+    cart_with_coupons_and_clearance
     
     
 end
